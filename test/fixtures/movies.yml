@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  caption: MyString
+  release_year: 
+  rating: 1.5
+  picture_path: MyString
+
+two:
+  caption: MyString
+  release_year: 
+  rating: 1.5
+  picture_path: MyString

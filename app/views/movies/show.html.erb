@@ -1,0 +1,26 @@
+<div class="bg-gradient" style="text-align: center;">
+	<div>
+		<h2>
+		  <%= @movie.caption %>
+		</h2>
+
+		<p>
+		  <strong>Release year:</strong>
+		  <%= @movie.release_year %>
+		</p>
+
+		<p>
+		  <strong>Rating:</strong>
+		  <%= @movie.rating %>
+		</p>
+
+		<p>
+		  <strong>Picture path:</strong>
+		  <a href=<%= @movie.picture_path %> target="_blank">See picture</a>
+		</p>
+
+		<%= link_to 'Edit', edit_movie_path(@movie), class: "btn btn-secondary" %> |
+		<%= link_to 'Back', movies_path, class: "btn btn-dark" %>
+	</div>	
+</div>
+
